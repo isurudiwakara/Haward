@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harward College</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        .dots-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            display: none;
+        }
+
+        .dot {
+            height: 20px;
+            width: 20px;
+            margin-right: 10px;
+            border-radius: 10px;
+            background-color: #b3d4fc;
+            animation: pulse 1.5s infinite ease-in-out;
+        }
+
+        .dot:last-child {
+            margin-right: 0;
+        }
+
+        .dot:nth-child(1) {
+            animation-delay: -0.3s;
+        }
+
+        .dot:nth-child(2) {
+            animation-delay: -0.1s;
+        }
+
+        .dot:nth-child(3) {
+            animation-delay: 0.1s;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.8);
+                background-color: #b3d4fc;
+                box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);
+            }
+
+            50% {
+                transform: scale(1.2);
+                background-color: #6793fb;
+                box-shadow: 0 0 0 10px rgba(178, 212, 252, 0);
+            }
+
+            100% {
+                transform: scale(0.8);
+                background-color: #b3d4fc;
+                box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);
+            }
+        }
+    </style>
+
+    <script>
+        window.addEventListener("load", function () {
+            var loader = document.querySelector(".dots-container");
+            loader.style.display = "none";
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky" style="background-color: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 " >
+                    <nav class="main-nav ">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="logo.png" alt="Image" class="logo_img" />
+                        </a>
+
+                        <ul class="nav" style="color: white;">
+                            <li class="scroll-to-section">
+                                <a href="index.html" class="active">Home</a>
+                            </li>
+                            <li><a href="meetings.html">About Us</a></li>
+                            <li class="scroll-to-section"><a href="#Courses">Courses</a></li>
+                            <li class="scroll-to-section">
+                                <a href="#courses">Alumini</a>
+                            </li>
+                            <li class="scroll-to-section">
+                                <a href="#contactUs">Contact Us</a>
+                            </li>
+                        </ul>
+                        <a class="menu-trigger">
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+
+    <div class="col-12" style="height: 500px;">
+        <div class="row justify-content-center text-center">
+
+            <h1>Alumini</h1>
+
+        </div>
+    </div>
+
+
+   
+            <div class="container">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                                
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card-client">
+                                <div class="user-picture">
+                                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                </div>
+                                <p class="name-client"> Jhon Doe
+                                    <span>CEO of WritBook
+                                    </span>
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <style>
+        .card-client {
+  background: #2cb5a0;
+  width: 13rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 4px solid #7cdacc;
+  box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.card-client:hover {
+  transform: translateY(-10px);
+}
+
+.user-picture {
+  overflow: hidden;
+  object-fit: cover;
+  width: 5rem;
+  height: 5rem;
+  border: 4px solid #7cdacc;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.user-picture svg {
+  width: 2.5rem;
+  fill: currentColor;
+}
+
+.name-client {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.name-client span {
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.social-media:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+  background: #7cdacc;
+}
+
+.social-media a {
+  position: relative;
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media a svg {
+  width: 1.1rem;
+  fill: currentColor;
+}
+
+/*-- Tooltip Social Media --*/
+.tooltip-social {
+  background: #262626;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  padding: 0.5rem 0.4rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -90%);
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+
+.tooltip-social:after {
+  content: " ";
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  border: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: transparent;
+  transform: translate(-50%, 100%);
+}
+
+.social-media a .tooltip-social:after {
+  border-top-color: #262626;
+}
+
+.social-media a:hover .tooltip-social {
+  opacity: 1;
+  transform: translate(-50%, -130%);
+}
+    </style>
+ 
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="cta-text">
+                    <h4>Find us</h4>
+                    <span>31, 1st Lane, Siri Ganendra MW, Nawala</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="fas fa-phone"></i>
+                  <div class="cta-text">
+                    <h4>Call us</h4>
+                    <span>+94 11 219 2470</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="far fa-envelope-open"></i>
+                  <div class="cta-text">
+                    <h4>Mail us</h4>
+                    <span>info@harwardcollege.lk</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-content pt-5 pb-5">
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                <div class="footer-widget">
+                  <div class="footer-logo">
+                    <a href="index.html"><img src="logo.png" class="img-fluid" alt="logo"></a>
+                  </div>
+                  <div class="footer-text">
+                    <p>
+                      Haward College is renowned for its excellence in education, offering NVQ Level 3 certificates across
+                      various disciplines. Prepare for success with Haward!</p>
+                  </div>
+                  <div class="footer-social-icon">
+                    <span>Follow us</span>
+                    <a href="#"><i class=""></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <div class="footer-widget-heading">
+                    <h3>Useful Links</h3>
+                  </div>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Expert Team</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Latest News</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div class="footer-widget">
+                  <div class="footer-widget-heading">
+                    <h3>Subscribe</h3>
+                  </div>
+                  <div class="footer-text mb-25">
+                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                  </div>
+                  <div class="subscribe-form">
+                    <form action="#">
+                      <input type="text" placeholder="Email Address">
+                      <button><i class="fab fa-telegram-plane"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                <div class="copyright-text">
+                  <p>Copyright &copy; 2023, All Right Reserved <a href="https://harwardcollege.lk/">HARWARD COLLEGE</a></p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                <div class="footer-menu">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+    
+      <style>
+        ul {
+          margin: 0px;
+          padding: 0px;
+        }
+    
+        .footer-section {
+          background: #151414;
+          position: relative;
+        }
+    
+        .footer-cta {
+          border-bottom: 1px solid #373636;
+        }
+    
+        .single-cta i {
+          color: #ff5e14;
+          font-size: 30px;
+          float: left;
+          margin-top: 8px;
+        }
+    
+        .cta-text {
+          padding-left: 15px;
+          display: inline-block;
+        }
+    
+        .cta-text h4 {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 2px;
+        }
+    
+        .cta-text span {
+          color: #757575;
+          font-size: 15px;
+        }
+    
+        .footer-content {
+          position: relative;
+          z-index: 2;
+        }
+    
+        .footer-pattern img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 330px;
+          background-size: cover;
+          background-position: 100% 100%;
+        }
+    
+        .footer-logo {
+          margin-bottom: 30px;
+        }
+    
+        .footer-logo img {
+          max-width: 200px;
+        }
+    
+        .footer-text p {
+          margin-bottom: 14px;
+          font-size: 14px;
+          color: #7e7e7e;
+          line-height: 28px;
+        }
+    
+        .footer-social-icon span {
+          color: #fff;
+          display: block;
+          font-size: 20px;
+          font-weight: 700;
+          font-family: 'Poppins', sans-serif;
+          margin-bottom: 20px;
+        }
+    
+        .footer-social-icon a {
+          color: #fff;
+          font-size: 16px;
+          margin-right: 15px;
+        }
+    
+        .footer-social-icon i {
+          height: 40px;
+          width: 40px;
+          text-align: center;
+          line-height: 38px;
+          border-radius: 50%;
+        }
+    
+        .facebook-bg {
+          background: #3B5998;
+        }
+    
+        .twitter-bg {
+          background: #55ACEE;
+        }
+    
+        .google-bg {
+          background: #DD4B39;
+        }
+    
+        .footer-widget-heading h3 {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 40px;
+          position: relative;
+        }
+    
+        .footer-widget-heading h3::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -15px;
+          height: 2px;
+          width: 50px;
+          background: #ff5e14;
+        }
+    
+        .footer-widget ul li {
+          display: inline-block;
+          float: left;
+          width: 50%;
+          margin-bottom: 12px;
+        }
+    
+        .footer-widget ul li a:hover {
+          color: #ff5e14;
+        }
+    
+        .footer-widget ul li a {
+          color: #878787;
+          text-transform: capitalize;
+        }
+    
+        .subscribe-form {
+          position: relative;
+          overflow: hidden;
+        }
+    
+        .subscribe-form input {
+          width: 100%;
+          padding: 14px 28px;
+          background: #2E2E2E;
+          border: 1px solid #2E2E2E;
+          color: #fff;
+        }
+    
+        .subscribe-form button {
+          position: absolute;
+          right: 0;
+          background: #ff5e14;
+          padding: 13px 20px;
+          border: 1px solid #ff5e14;
+          top: 0;
+        }
+    
+        .subscribe-form button i {
+          color: #fff;
+          font-size: 22px;
+          transform: rotate(-6deg);
+        }
+    
+        .copyright-area {
+          background: #202020;
+          padding: 25px 0;
+        }
+    
+        .copyright-text p {
+          margin: 0;
+          font-size: 14px;
+          color: #878787;
+        }
+    
+        .copyright-text p a {
+          color: #ff5e14;
+        }
+    
+        .footer-menu li {
+          display: inline-block;
+          margin-left: 20px;
+        }
+    
+        .footer-menu li:hover a {
+          color: #ff5e14;
+        }
+    
+        .footer-menu li a {
+          font-size: 14px;
+          color: #878787;
+        }
+      </style>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script> <!-- Include Vue.js library -->
+    <script src="script.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <script src="bootstrap.bundle.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $(".nav li:first").addClass("active");
+
+        var showSection = function showSection(section, isAnimate) {
+            var direction = section.replace(/#/, ""),
+                reqSection = $(".section").filter(
+                    '[data-section="' + direction + '"]'
+                ),
+                reqSectionPos = reqSection.offset().top - 0;
+
+            if (isAnimate) {
+                $("body, html").animate(
+                    {
+                        scrollTop: reqSectionPos,
+                    },
+                    800
+                );
+            } else {
+                $("body, html").scrollTop(reqSectionPos);
+            }
+        };
+
+        var checkSection = function checkSection() {
+            $(".section").each(function () {
+                var $this = $(this),
+                    topEdge = $this.offset().top - 80,
+                    bottomEdge = topEdge + $this.height(),
+                    wScroll = $(window).scrollTop();
+                if (topEdge < wScroll && bottomEdge > wScroll) {
+                    var currentId = $this.data("section"),
+                        reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+                    reqLink
+                        .closest("li")
+                        .addClass("active")
+                        .siblings()
+                        .removeClass("active");
+                }
+            });
+        };
+
+        $(".main-menu, .responsive-menu, .scroll-to-section").on(
+            "click",
+            "a",
+            function (e) {
+                e.preventDefault();
+                showSection($(this).attr("href"), true);
+            }
+        );
+
+        $(window).scroll(function () {
+            checkSection();
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
