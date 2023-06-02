@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -619,24 +621,36 @@
                 <label class="text-center fs-3 fw-bold">Register Now</label>
               </div>
 
-              <div class="col-12 col-lg-5 mt-3 mb-4">
-                <input type="text" class=" form-control" placeholder="First Name" id="f">
+              <div class="col-12 col-lg-5 mt-3 mb-4 d-grid">
+                <label for="usernameField" class="usernamelabel label">First name</label>
+                <input type="text" id="f" class="usernameField" required="required">
               </div>
-              <div class="col-12 col-lg-5 mt-3 mb-4">
-                <input type="text" class=" form-control" placeholder="Last Name" id="l">
-              </div>
-              <div class="col-12 col-lg-5 mt-3 mb-4">
-                <input type="email" class=" form-control" placeholder="Email" id="e">
-              </div>
-              <div class="col-12 col-lg-5 mt-3 mb-4">
-                <input type="number" class=" form-control" placeholder="Mobile Number" id="m">
-              </div>
-              <div class="col-12 col-lg-5 mt-3 mb-4">
-                <input type="date" class=" form-control" placeholder="Birthday" id="b">
-              </div>
-              <div class="col-12 col-lg-5 mt-3 mb-4">
 
-                <select class="form-select" id="g">
+              <div class="col-12 col-lg-5 mt-3 mb-4 d-grid">
+                <label for="usernameField" class="usernamelabel label">First name</label>
+                <input type="text" id="l" class="usernameField" required="required">
+              </div>
+
+              <div class="col-12 col-lg-5 mt-3 mb-4 d-grid">
+                <label for="usernameField" class="usernamelabel label">First name</label>
+                <input type="text" id="e" class="usernameField" required="required">
+              </div>
+
+              <div class="col-12 col-lg-5 mt-3 mb-4 d-grid">
+                <label for="usernameField" class="usernamelabel label">First name</label>
+                <input type="text" id="m" class="usernameField" required="required">
+              </div>
+
+              <div class="col-12 col-lg-5 mt-3 mb-4 d-grid">
+                <label for="usernameField" class="usernamelabel label">First name</label>
+                <input type="date" id="b" class="usernameField" required="required">
+              </div>
+
+              <div class="col-12 col-lg-5 mt-3 mb-4 d-grid">
+
+                <label for="usernameField" class="usernamelabel label">First name</label>
+
+                <select id="registerFocus">
                   <option selected>Select Gender</option>
                   <option value="1">Male</option>
                   <option value="2">Female</option>
@@ -644,9 +658,9 @@
 
               </div>
 
-              <div class="col-lg-10 col-12  mt-3 mb-2">
+              <div class="col-lg-10 col-12  mt-3 mb-2 d-grid">
 
-                <select class="form-select" id="c">
+                <select id="registerFocus">
                   <option selected>Select Course</option>
                   <option value="1">Hotel</option>
                   <option value="3">Hair & Beauty</option>
@@ -657,8 +671,8 @@
 
               </div>
 
-              <div class="col-8 col-lg-4  mt-5 d-grid mb-2">
-                <button class="btn btn-primary" onclick="register();">Register</button>
+              <div class="col-8 col-lg-4 mt-5 text-center mb-2">
+                <button class="rebtn" onclick="register();">Register</button>
               </div>
 
               <div>
