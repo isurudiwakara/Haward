@@ -145,14 +145,38 @@ main {
 }
 
 /* register part */
+
+#registerFocus {
+  /* Add your styles for the select element here */
+  /* Example styles: */
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 2px solid #b1b1b1;
+  padding: 0px 12px;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+#registerFocus:hover,
+#registerFocus:focus {
+  border-color: #ffd062;
+}
+
 .usernamelabel {
+  /* Add your styles for usernamelabel here */
+  /* Example styles: */
   display: block;
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 14px;
   padding: 5px 5px;
 }
 
 .usernameField {
+  /* Add your styles for usernameField here */
+  /* Example styles: */
   display: block;
   height: 40px;
   background-color: #ffffff;
@@ -160,41 +184,25 @@ main {
   border: 2px solid #b1b1b1;
   padding: 0px 12px;
   outline: none;
-  caret-color: rgb(152, 88, 255);
-  color: rgb(212, 212, 212);
+  caret-color: #9858ff;
+  color: #d4d4d4;
   font-size: 12px;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .usernameField:focus,
 .usernameField:valid {
+  /* Add your styles for focus and valid state here */
+  /* Example styles: */
   border: 2px solid #ffd062;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
-#registerFocus {
-  display: block;
-  height: 40px;
-  background-color: #ffffff;
-  border-radius: 30px;
-  border: 2px solid #b1b1b1;
-  padding: 0px 12px;
-  outline: none;
-  caret-color: rgb(152, 88, 255);
-  color: rgb(212, 212, 212);
-  font-size: 12px;
-  transition-duration: .2s;
-}
-
-#registerFocus option {
-  border: 2px solid #ffd062;
-  transition-duration: .2s;
-}
 
 /* register buttonb */
 
 .rebtn {
-  width: 9em;
+  width: 15em;
   height: 3em;
   border-radius: 30em;
   font-size: 15px;
@@ -214,14 +222,14 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, #d42b2b 0%, #0c197d 100%);
+  background-image: linear-gradient(to right, #bf273a 0%, #ddac4b 100%);
   transition: .5s ease;
   display: block;
   z-index: -1;
 }
 
 .rebtn:hover::before {
-  width: 9em;
+  width: 15em;
 }
 
 .rebtn:hover {
