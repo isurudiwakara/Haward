@@ -144,5 +144,86 @@ main {
   width: 250px
 }
 
+/* register part */
+.usernamelabel {
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  padding: 5px 5px;
+}
 
+.usernameField {
+  display: block;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 2px solid #b1b1b1;
+  padding: 0px 12px;
+  outline: none;
+  caret-color: rgb(152, 88, 255);
+  color: rgb(212, 212, 212);
+  font-size: 12px;
+  transition-duration: .2s;
+}
 
+.usernameField:focus,
+.usernameField:valid {
+  border: 2px solid #ffd062;
+  transition-duration: .2s;
+}
+
+#registerFocus {
+  display: block;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 2px solid #b1b1b1;
+  padding: 0px 12px;
+  outline: none;
+  caret-color: rgb(152, 88, 255);
+  color: rgb(212, 212, 212);
+  font-size: 12px;
+  transition-duration: .2s;
+}
+
+#registerFocus option {
+  border: 2px solid #ffd062;
+  transition-duration: .2s;
+}
+
+/* register buttonb */
+
+.rebtn {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.rebtn::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #d42b2b 0%, #0c197d 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.rebtn:hover::before {
+  width: 9em;
+}
+
+.rebtn:hover {
+  color: white;
+}
